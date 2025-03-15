@@ -326,7 +326,7 @@ class MboV6ApiMethods {
 					'method'   => 'GET',
 					'name'     => 'GetClients',
 					'endpoint' => $this->endpoint_client . '/clients',
-					'headers'  => $this->headers_basic,
+					'headers'  => $this->headers_authorized,
 				),
 				'GetContactLogs'                     => array(
 					'method'   => 'GET',
